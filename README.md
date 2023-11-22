@@ -1,11 +1,23 @@
 # 5.5- Sonic Harbor Visualization
 
-https://public.tableau.com/views/el_artico_discos/Historia1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link
+![dashboard](https://github.com/jvr0/5.5-visualization/blob/main/img/dashboard.png)
 
-El siguiente trabajo se basa en el análisis del actual inventario de la tienda de venta online [El Ártico Discos](https://www.discogs.com/es/seller/elarticodiscos/profile "El Ártico Discos"). Se nos ha encargado la visualización de algunas estadísticas relevantes respecto al precio, condición y sellos musicales.
+El siguiente proyecto consiste en un encargo por parte de la tienda online [El Ártico Discos](https://www.discogs.com/es/seller/elarticodiscos/profile "El Ártico Discos"). Se ha encargo la realización de un ançalisis de los items en el inventario.
 
-En los datos recibicos se ha utilizado la información de la columna format para establecer varias categorías en los datos. Se ha extraido la info de estos registros para crear las siguientes columnas booleanas: `['promo', 'vinyl', 'special', 'CD', 'single', 'album']`
+## Obtención y limpieza de datos
+Los datos han sido obtenidos de forma directa por parte del cliente. Su obtención ha consistido en la exportación del inventario actual a través de la plataforma de venta Discogs. Una vez se recogieron los datos se procedió a su limpieza.
 
-Estas columnas se han utilizado para contrastar el precio medio de los items catalogados según pertenecian a una u otra categoría, viendo que el mayor precio medio se úbica en los registros de la categoría album, seguido de aquellos catalogados como promo.
+En este proyecto la preparación de la información ha consistido en la eliminación de columnas irrelevantes de cara al análisis del inventario, tales como la úbicación física del item en el almacen o los comentarios personales del cliente.
 
-También se han realizado gráficos sobre los tops ded artistas y sellos musicales, así como mediciones en base a la condición del item y la funda, contrastando estas categorías con el precio de los items. De esta última medición se ha observado que la diferencia de precio media entre los items catalogados cómo mint(sin abrir) y near mint(abierto, en condición óptima) es muy pequeña, lo que podría llevar a una revisión de los mismos con el objetivo de aumentar las ganancias.
+También se han corregido las categorías de ciertos items y se han creado nuevas columnas, cuya información ha sido obtenida de la columna original `format`. Esta nueva información son elementos booleanos que definen el item según sea vinilo, single o CD. 
+
+## Creación dashboard
+
+Durante la creación del dashboard se ha tenido en cuenta el objetivo último de cara al cliente, el resumen en un golpe de vista del inventario. Para esto se han creado varios gráficos presentando la siguiente información:
+- precio medio en base a la condición establecida del item y la funda.
+- artículos en stockaje según oferta y tipo de item.
+- recuento de top artistas y sellos discográficos.
+
+#### Enlace a dashboard
+
+https://public.tableau.com/views/inven_artico/Dashboard1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link
