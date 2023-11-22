@@ -4,7 +4,7 @@ https://public.tableau.com/views/el_artico_discos/Historia1?:language=es-ES&publ
 
 El siguiente trabajo se basa en el análisis del actual inventario de la tienda de venta online [El Ártico Discos](https://www.discogs.com/es/seller/elarticodiscos/profile "El Ártico Discos"). Se nos ha encargado la visualización de algunas estadísticas relevantes respecto al precio, condición y sellos musicales.
 
-En los datos recibicos se ha utilizado la información de la columna format para establecer varias categorías en los datos. Se ha extraido la info de estos registros para crear las siguientes columnas booleanas: ['promo', 'vinyl', 'special', 'CD', 'single', 'album']
+En los datos recibicos se ha utilizado la información de la columna format para establecer varias categorías en los datos. Se ha extraido la info de estos registros para crear las siguientes columnas booleanas: `['promo', 'vinyl', 'special', 'CD', 'single', 'album']`
 
 Estas columnas se han utilizado para contrastar el precio medio de los items catalogados según pertenecian a una u otra categoría, viendo que el mayor precio medio se úbica en los registros de la categoría album, seguido de aquellos catalogados como promo.
 
