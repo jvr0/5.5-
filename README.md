@@ -2,7 +2,7 @@
 
 ![dashboard](https://github.com/jvr0/5.5-visualization/blob/main/img/dashboard.png)
 
-El siguiente proyecto consiste en un encargo por parte de la tienda online [El Ártico Discos](https://www.discogs.com/es/seller/elarticodiscos/profile "El Ártico Discos"). Se ha encargo la realización de un ançalisis de los items en el inventario.
+El siguiente proyecto consiste en un encargo por parte de la tienda online [El Ártico Discos](https://www.discogs.com/es/seller/elarticodiscos/profile "El Ártico Discos"). Se ha encargo la realización de un análisis de los items en el inventario.
 
 ## Obtención y limpieza de datos
 Los datos han sido obtenidos de forma directa por parte del cliente. Su obtención ha consistido en la exportación del inventario actual a través de la plataforma de venta Discogs. Una vez se recogieron los datos se procedió a su limpieza.
